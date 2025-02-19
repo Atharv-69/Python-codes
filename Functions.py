@@ -58,15 +58,40 @@
 
 # # slicing()
 # # Slicing a string to get a part of it
-text = "Hello, World!"
-sliced_text = text[0:5:1]  # Get the first 5 characters
+# text = "Hello, World!"
+# sliced_text = text[0:5:1]  # Get the first 5 characters
 # # Negative slicing
 # sliced_text = text[0:-1]  
-print(sliced_text)
+# print(sliced_text)
+# _________________________________________________________________________________________
 
+#range function
+#syntax of range function 
+# range(start , stop , step)
+# for i in range(1,9,1):
+#     print( i)
+
+# for i in range(5):
+#     print(i)
 
 # # User defined functions 
-# def sum(a,b):
-#     return a+b
+# Function is a block of reusable code which performs a specific task
+#syntax of user defined function 
+# def function_name(parameters):
+    # Function body (code to execute)
+    # return result 
 
-# print(sum(1,2))
+def sum(a,b):
+    return a+b
+
+print(sum(1,2)) 
+
+
+# def greet():
+    # print("Hello guys")
+
+# greet()
+
+
+# create a function which takes three numbers as 
+#  input and return the largest number 
